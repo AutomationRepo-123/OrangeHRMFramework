@@ -20,6 +20,9 @@ public class AddEmployeePage {
 	private WebElement savebtn;
 	@FindBy(css = ".oxd-toast-content--success")
 	private WebElement successMsg;
+	
+	@FindBy(name = "firstName")
+	private WebElement firstName1;
 
 	public WebElement getfirstName() {
 		return firstName;
